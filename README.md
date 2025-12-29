@@ -5,9 +5,9 @@ This project models and solves a realistic supply chain transportation problem u
 The objective was not just to find the cheapest solution, but to understand how real-world constraints
 (time, emissions, capacity, and operational limits) affect feasibility and decision-making.
 
----
 
-## 📦 Problem Overview
+
+## Problem Overview
 
 NutriBox needs to ship **600 pallets** from **4 factories** to **5 destinations** using:
 - **3 distribution centres**
@@ -23,9 +23,9 @@ The model includes:
 - Minimum rail usage policy
 - Operational complexity constraint (limited active routes)
 
----
 
-## ⚠️ Key Insight
+
+## Key Insight
 
 When strict **time** and **CO₂ emission** limits were applied together,  
 **no feasible solution existed**.
@@ -35,9 +35,9 @@ sometimes the network structure itself makes certain targets impossible.
 
 Instead of forcing a solution, the problem was reframed to explore trade-offs.
 
----
 
-## 🔍 Scenarios Solved
+
+## Scenarios Solved
 
 Four optimisation scenarios were analysed:
 
@@ -63,15 +63,13 @@ Four optimisation scenarios were analysed:
 
 Each scenario satisfies all structural and operational constraints.
 
----
 
-## 🛠 Tools Used
+
+## Tools Used
 
 - **Python**
 - **PuLP** (Linear Programming modelling)
 - **CBC Solver** (via PuLP)
 
----
 
-## 📁 Repository Structure
 
