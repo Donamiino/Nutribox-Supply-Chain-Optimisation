@@ -1,0 +1,6 @@
+This project was inspired by a real optimisation question:
+What happens when cost, service time, and sustainability targets
+cannot all be met at the same time?
+
+The analysis intentionally explores infeasibility first,
+before comparing focused optimisation scenarios.
